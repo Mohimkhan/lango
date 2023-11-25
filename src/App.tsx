@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import { Suspense, lazy } from 'react';
 import Loader from './components/Loader';
+import './index.css';
 
 const Home = lazy(() => import('./components/Home'));
 const Learn = lazy(() => import('./components/Learning'));
